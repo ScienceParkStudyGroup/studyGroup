@@ -1,3 +1,5 @@
 # RNAseqDataVis
-## Science Park Study Group 7/05/2019
+## Science Park Study Group 07/05/2019
+
+### Part 1 Preprocessing 
 
