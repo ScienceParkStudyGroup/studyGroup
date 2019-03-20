@@ -10,7 +10,7 @@ For previous stages of RNA-sequencing data anlysis to prepare your data for this
 ### Part 1 Preprocessing 
 After loading the packages we'll need for the lesson we will do some data preprocessing.
 To Begin, the data needs to be downloaded/read in to R from the URL provided (Tip: You can change this destination for your own data)
-Here we can also make the design object (The thing that indicates condition/cell-type etc. of each sample)
+Here we can also make the design object (indicating condition/cell-type etc. of each sample)
 
 ### Part 2 DESeq2 and PCA plot
 Next we will perform some preliminary data visualisation to get a feel for the dataset we have.
