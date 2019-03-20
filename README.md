@@ -30,3 +30,9 @@ To plot a heatmap we first need to reduce the number of genes that are being ass
 *NOTE: don't forget to link (here using: `cbind()`) the identifiers to the DESeq results object as soon as it is created*
 
 We can now use the fitlered and ordered DESeq results object `resordered` to filter the counts object with however many genes we would like to see in a heatmap. Here we have chosen the 25 genes that have the lowest adjusted p-values.
+
+
+
+
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Fred-White94/RNAseqDataVis/master)
