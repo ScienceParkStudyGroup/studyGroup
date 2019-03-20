@@ -1,6 +1,12 @@
 # RNAseqDataVis
 ## Science Park Study Group 07/05/2019
 
+**This lesson assumes the data is already in a counts table format (i.e. has already been trimmed and aligned)**
+
+For previous stages of RNA-sequencing data anlysis to prepare your data for this phase see: [RNA-Seq Workshop](https://scienceparkstudygroup.github.io/2019-03-07-rnaseq-workshop/)
+
+
+
 ### Part 1 Preprocessing 
 After loading the packages we'll need for the lesson we will do some data preprocessing.
 To Begin, the data needs to be downloaded/read in to R from the URL provided (Tip: You can change this destination for your own data)
