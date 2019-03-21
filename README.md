@@ -14,9 +14,11 @@ You should know how to start RStudio and have an understanding of the different 
 
 ### This lesson is for beginners as we will perform the commands together.
 
-**This lesson assumes the data is already in a counts table format (i.e. has already been trimmed and aligned)**
+**The data provided for this session is already in a counts table format (i.e. has already been trimmed and aligned)**
 
-For previous stages of RNA-sequencing data anlysis to prepare your data for this phase see: [RNA-Seq Workshop](https://scienceparkstudygroup.github.io/2019-03-07-rnaseq-workshop/)
+For previous stages of RNA-sequencing data anlysis to prepare your own data for this phase see: [RNA-Seq Workshop](https://scienceparkstudygroup.github.io/2019-03-07-rnaseq-workshop/)
+
+
 
 
 
