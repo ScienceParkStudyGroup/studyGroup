@@ -15,7 +15,7 @@ You should know how to start RStudio and have an understanding of the different 
 
 To speed up set up copy and paste the code block below into Rstudio to install the packages needed for the session (especially if R has been freshly installed.
 
-```
+```R
 install.packages("ggplot2", repos = "https://cloud.r-project.org/")
 install.packages("pheatmap", repos = "https://cloud.r-project.org/")
 if (!requireNamespace("BiocManager", quietly = TRUE))
