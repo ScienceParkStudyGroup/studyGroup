@@ -1,6 +1,19 @@
 # RNAseqDataVis
 ## Science Park Study Group 07/05/2019
 
+**R and RStudio**
+You should have R and RStudio installed on your machine.
+
+Get R here: https://lib.ugent.be/CRAN/
+
+Get RStudio here: https://www.rstudio.com/
+
+*Prerequisites*
+
+You should know how to start RStudio and have an understanding of the different panels of RStudio that's all.
+
+### This lesson is for beginners as we will perform the commands together.
+
 **This lesson assumes the data is already in a counts table format (i.e. has already been trimmed and aligned)**
 
 For previous stages of RNA-sequencing data anlysis to prepare your data for this phase see: [RNA-Seq Workshop](https://scienceparkstudygroup.github.io/2019-03-07-rnaseq-workshop/)
