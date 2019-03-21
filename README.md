@@ -13,18 +13,14 @@ Get RStudio here: https://www.rstudio.com/
 
 You should know how to start RStudio and have an understanding of the different panels of RStudio.
 
-To speed up set up copy and paste the code block below to install the packages needed for the session (especially if R has been freshly installed.
+To speed up set up copy and paste the code block below into Rstudio to install the packages needed for the session (especially if R has been freshly installed.
 
 ```
-
-
 install.packages("ggplot2", repos = "https://cloud.r-project.org/")
 install.packages("pheatmap", repos = "https://cloud.r-project.org/")
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install("DESeq2", version = "3.8")
-
-
 ```
 
 ### This lesson is for beginners as we will perform all commands together.
