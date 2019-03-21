@@ -1,6 +1,9 @@
 # RNAseqDataVis
 ## Science Park Study Group 07/05/2019
 
+
+### *Prerequisites:*
+
 **R and RStudio**
 You should have R and RStudio installed on your machine.
 
@@ -8,11 +11,23 @@ Get R here: https://lib.ugent.be/CRAN/
 
 Get RStudio here: https://www.rstudio.com/
 
-*Prerequisites*
+You should know how to start RStudio and have an understanding of the different panels of RStudio.
 
-You should know how to start RStudio and have an understanding of the different panels of RStudio that's all.
+To speed up set up copy and paste the code block below to install the packages needed for the session (especially if R has been freshly installed.
 
-### This lesson is for beginners as we will perform the commands together.
+```
+
+
+install.packages("ggplot2", repos = "https://cloud.r-project.org/")
+install.packages("pheatmap", repos = "https://cloud.r-project.org/")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("DESeq2", version = "3.8")
+
+
+```
+
+### This lesson is for beginners as we will perform all commands together.
 
 **The data provided for this session is already in a counts table format (i.e. has already been trimmed and aligned)**
 
